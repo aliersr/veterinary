@@ -7,7 +7,7 @@
 
 - Used JavaScript and [React JS](https://reactjs.org/)
 - [Vite JS](https://vitejs.dev/ )
-- [Tailwind CSS](https://tailwindcss.com/) and **PostCSS**
+- [Tailwind CSS](https://tailwindcss.com/) and **PostCSS**.
 
 
 ### How do I get set up?
