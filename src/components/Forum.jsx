@@ -11,7 +11,7 @@ const Forum = ({ pacients, setPacients, pacient, setPacient }) => {
 
   const [error, setError] = useState(false);
 
-  //Fill Form
+  //Fill Forum
   useEffect(() => {
     if (Object.keys(pacient).length > 0) {
       setName(pacient.name);
@@ -32,13 +32,13 @@ const Forum = ({ pacients, setPacients, pacient, setPacient }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    //Validacion Forum.
+    //Validation Forum.
     if ([name, owner, email, date, symptoms].includes('')) {
       setError(true);
     } else {
       setError(false);
 
-      //Objeto pacient
+      //Objet pacient
       const objPacient = {
         name,
         owner,
